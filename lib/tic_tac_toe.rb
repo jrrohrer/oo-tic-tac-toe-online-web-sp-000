@@ -38,7 +38,7 @@ class TicTacToe
     turn_count.even? ? "X" : "O"
   end
 
-  def turn 
+  def turn
     puts "Please enter 1-9:"
     input = gets.strip
     index = input_to_index(input)
@@ -48,5 +48,5 @@ class TicTacToe
     else
       turn
     end
-  end 
+  end
 end
